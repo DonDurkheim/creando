@@ -2,7 +2,7 @@ import TeamMeeting from "./../assets/TeamMeeting.png"
 
 export default function Contact() {
   return (
-    <section className="w-full min-h-screen bg-white">
+    <section id="contact" className="w-full min-h-screen bg-white">
       <div className="grid lg:grid-cols-5 min-h-screen">
         {/* Image Section */}
         <div className="lg:col-span-3 relative">

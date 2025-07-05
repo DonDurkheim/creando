@@ -40,7 +40,21 @@ const AddressBarContent = () => (
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
-    const links = ["Inicio", "Sobre Nosotros", "Servicio", "J Rosa & Asesores"];
+    const links = [
+        { label: "Inicio", target: "hero" },
+        { label: "Sobre Nosotros", target: "who-we-are" },
+        { label: "Servicio", target: "services" },
+        { label: "J Rosa & Asesores", target: "team" },
+        { label: "Testimonios", target: "testimonials" },
+        { label: "Contacto", target: "contact" },
+    ];
+
+    const scrollToSection = (id) => {
+        const el = document.getElementById(id);
+        if (el) {
+            el.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
 
     return (
         <div className="flex flex-col w-full">
@@ -71,8 +85,9 @@ const Navbar = () => {
                         <a
                             key={idx}
                             className="text-base text-black hover:text-orange-400 mx-3 cursor-pointer whitespace-nowrap"
+                            onClick={() => scrollToSection(link.target)}
                         >
-                            {link}
+                            {link.label}
                         </a>
                     ))}
                     <FaAngleRight className="cursor-pointer mx-4 flex-shrink-0" />
@@ -120,9 +135,9 @@ const Navbar = () => {
                         <a
                             key={idx}
                             className="text-lg text-black hover:text-orange-400 py-2 border-b border-gray-100"
-                            onClick={() => setMenuOpen(false)}
+                            onClick={() => { scrollToSection(link.target); setMenuOpen(false); }}
                         >
-                            {link}
+                            {link.label}
                         </a>
                     ))}
                 </nav>

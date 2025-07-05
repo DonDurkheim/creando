@@ -2,7 +2,7 @@ import ManStanding from "./../assets/ManStanding.png"
 
 const WhoWeAre = () => {
   return (
-    <section className="relative w-full min-h-screen bg-gradient-to-br from-teal-800 to-teal-900 overflow-hidden">
+    <section id="who-we-are" className="relative w-full min-h-screen bg-gradient-to-br from-teal-800 to-teal-900 overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -17,7 +17,7 @@ const WhoWeAre = () => {
 
       <div className="relative container mx-auto px-4 py-12 lg:py-20">
         {/* Video CTA */}
-        <div className="mb-8 lg:mb-12">
+        {/* <div className="mb-8 lg:mb-12">
           <button className="flex items-center gap-3 text-white hover:text-orange-200 transition-colors duration-200 group">
             <div className="w-12 h-12 bg-orange-500 hover:bg-orange-600 rounded-lg flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-200">
               <svg className="w-6 h-6 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
@@ -26,7 +26,7 @@ const WhoWeAre = () => {
             </div>
             <span className="text-lg font-medium">Mira nuestro video y conoce más sobre nosotros</span>
           </button>
-        </div>
+        </div> */}
 
         {/* Main Content */}
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">

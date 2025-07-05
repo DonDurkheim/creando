@@ -2,7 +2,7 @@ import HeroImg from "./../assets/HeroImg.png"
 
 export default function HeroSection() {
   return (
-    <section className="w-full min-h-screen bg-gradient-to-br from-gray-50 to-white">
+    <section id="hero" className="w-full min-h-screen bg-gradient-to-br from-gray-50 to-white">
       <div className="container mx-auto px-4 py-12 lg:py-20">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Content Section */}

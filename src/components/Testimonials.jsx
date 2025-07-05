@@ -40,7 +40,7 @@ const Testimonials = () => {
   const currentTestimonial = testimonialsData[currentTestimonialIndex];
 
   return (
-    <section className="w-full py-16 px-4 bg-gradient-to-br from-white to-gray-100 flex flex-col items-center">
+    <section id="testimonials" className="w-full py-16 px-4 bg-gradient-to-br from-white to-gray-100 flex flex-col items-center">
       {/* Title and Subheading */}
       <div className="mb-25 text-center">
         <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2">Testimonios de Clientes</h2>
