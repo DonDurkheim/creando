@@ -66,7 +66,7 @@ const Navbar = () => {
                     alt="Logo"
                 />
                 {/* Desktop links */}
-                <div className="hidden md:flex items-center flex-1 min-w-0 overflow-x-auto">
+                <div className="hidden md:flex items-center flex-1 min-w-0 overflow-x-auto justify-end">
                     {links.map((link, idx) => (
                         <a
                             key={idx}
