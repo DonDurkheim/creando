@@ -2,6 +2,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import WhoWeAre from './components/WhoWeAre'
 import AboutUs from './components/AboutUs'
+import Services from './components/Services'
 
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
       <Hero />
       <WhoWeAre />
       <AboutUs />
+      <Services />
     </div>
   )
 }
