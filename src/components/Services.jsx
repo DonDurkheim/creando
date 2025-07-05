@@ -1,10 +1,9 @@
-
 import TeamMeeting from "./../assets/TeamMeeting.png"; 
 import { FaCheckCircle } from "react-icons/fa";
 
 export default function Services() {
   return (
-    <section className="flex flex-col lg:flex-row w-full min-h-screen">
+    <section className="flex flex-col lg:flex-row w-full">
       {/* Image Section */}
       <div className="w-full lg:w-1/2 h-64 lg:h-auto">
         <img
