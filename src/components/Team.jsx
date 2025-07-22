@@ -1,4 +1,5 @@
 import React from 'react';
+import kalorinaImg from './../assets/kalorina.jpg';
 
 export const Team = () => {
   const teamMembers = [
@@ -24,6 +25,12 @@ export const Team = () => {
       image: "/assets/ana_cruz.jpg",
       name: "Ana Cruz",
       position: "Encargada de Tramitación Contable",
+      socialIcons: ["https://cdn.builder.io/api/v1/image/assets/TEMP/bdeafbfe8376c4786819cebad24cf558091b4c72?placeholderIfAbsent=true", "https://cdn.builder.io/api/v1/image/assets/TEMP/f5f25819ba7f7d83cc14075f389bd6f2c2b97141?placeholderIfAbsent=true", "https://cdn.builder.io/api/v1/image/assets/TEMP/0b34b241117fb344ccc3c04261d27f0e7ba375d8?placeholderIfAbsent=true", "https://cdn.builder.io/api/v1/image/assets/TEMP/94f4a34fe2e80b7878b5327a4be7d51388ab8704?placeholderIfAbsent=true"]
+    },
+    {
+      image: kalorinaImg,
+      name: "Karoline Rosa",
+      position: "Area de trámite documentario",
       socialIcons: ["https://cdn.builder.io/api/v1/image/assets/TEMP/bdeafbfe8376c4786819cebad24cf558091b4c72?placeholderIfAbsent=true", "https://cdn.builder.io/api/v1/image/assets/TEMP/f5f25819ba7f7d83cc14075f389bd6f2c2b97141?placeholderIfAbsent=true", "https://cdn.builder.io/api/v1/image/assets/TEMP/0b34b241117fb344ccc3c04261d27f0e7ba375d8?placeholderIfAbsent=true", "https://cdn.builder.io/api/v1/image/assets/TEMP/94f4a34fe2e80b7878b5327a4be7d51388ab8704?placeholderIfAbsent=true"]
     }
   ];
